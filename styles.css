@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.548);
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    max-width: 100%;
+}
+
+.logo-image{
+    width: 100px;
+}
+.user-image, .post-header-profilepicture{
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+}
+
+.padding{
+    padding: 3%;
+}
+
+.post-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.name-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2%;
+}
+
+.name-location p{
+    margin: 0;
+}
+
+.name-location p:first-child, .username-comment p:first-child{
+    font-weight: 900;
+}
+
+.post-picture{
+    width: 100%;
+}
+
+.interactions{
+    width: 7%;
+    margin: 3% 0 0 2.5%;
+}
+
+.interactions + p{
+    margin: 0;
+    font-weight: 900;
+}
+
+.username-comment p{
+    display: inline;
+    margin: 0;
+}
+
+.username-comment{
+    padding: 0 3% 3% 3%;
+}
+
+.red-background{
+    background-color: red;
+}
+
+@media only screen and (min-width: 768px){
+    .container{
+        width: 250px;
+        margin: auto;
+        font-size: 10px;
+    }
+}
+
